@@ -4,12 +4,19 @@ body {
   text-align: center;
 }
 
+hr {
+  margin: 20px auto;
+  height: 0;
+  border-width: 8px 0 0 0;
+  border-style: dotted;
+  width: 8%;
+  opacity: 0.5;
+}
+
 .top-container {
   background-color: #c4e2ed;
   height: 50rem;
 }
-
-.middle-container {}
 
 .mountain-container {
   position: relative;
@@ -34,6 +41,14 @@ body {
   width: 800px;
 }
 
+.sus {
+  width: 50px;
+  position: absolute;
+  right: 460px;
+  top: 70px;
+  visibility: hidden;
+}
+
 .name {
   font-size: 2.75rem;
   font-family: 'Lobster', cursive;
@@ -43,4 +58,59 @@ body {
 .title {
   font-family: 'Bree Serif', serif;
   margin: 0;
+}
+
+.image-me {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.greeting {
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.skills-left {
+  margin: 0 auto;
+  height: 150px;
+  width: 40%;
+  position: relative;
+}
+
+.skills-right {
+  margin: 0 auto;
+  height: 150px;
+  width: 40%;
+  position: relative;
+}
+
+.icon-left {
+  margin: 0;
+  margin-right: 20px;
+  width: 150px;
+  border-radius: 100%;
+  float: left;
+}
+
+.icon-right {
+  margin: 0;
+  margin-left: 20px;
+  width: 150px;
+  border-radius: 100%;
+  float: right;
+  background-color: black;
+}
+
+.description {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
