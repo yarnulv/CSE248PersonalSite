@@ -18,6 +18,12 @@ hr {
   height: 50rem;
 }
 
+.bottom-container {
+  margin-top: 20px;
+  height: 150px;
+  background-color: grey;
+}
+
 .mountain-container {
   position: relative;
   width: 900px;
